@@ -1,0 +1,7 @@
+services:
+  dev:
+    image: rust:1.92.0
+    entrypoint: sleep infinity
+    init: true
+    volumes:
+      - .:/app

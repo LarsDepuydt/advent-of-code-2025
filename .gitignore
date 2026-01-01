@@ -1,0 +1,6 @@
+# Ignore all files
+*
+# But don't ignore files with a dot (extensions)
+!*.*
+# And don't ignore directories
+!*/
