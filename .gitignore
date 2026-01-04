@@ -4,3 +4,8 @@
 !*.*
 # And don't ignore directories
 !*/
+
+
+# Added by cargo
+
+/target
