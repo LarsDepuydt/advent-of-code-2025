@@ -17,6 +17,7 @@ fn main() {
         "21" => day2::puzzle1::main(),
         "22" => day2::puzzle2::main(),
         "31" => day3::puzzle1::main(),
+        "32" => day3::puzzle2::main(),
         _ => println!("Invalid choice"),
     }
 }
