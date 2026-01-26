@@ -2,6 +2,7 @@ use std::io;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     println!("Choose the program to run:");
@@ -18,6 +19,8 @@ fn main() {
         "22" => day2::puzzle2::main(),
         "31" => day3::puzzle1::main(),
         "32" => day3::puzzle2::main(),
+        "41" => day4::puzzle1::main(),
+        "42" => day4::puzzle2::main(),
         _ => println!("Invalid choice"),
     }
 }
