@@ -4,6 +4,7 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
+mod day6;
 
 fn main() {
     println!("Choose the program to run:");
@@ -24,6 +25,8 @@ fn main() {
         "42" => day4::puzzle2::main(),
         "51" => day5::puzzle1::main(),
         "52" => day5::puzzle2::main(),
+        "61" => day6::puzzle1::main(),
+        "62" => day6::puzzle2::main(),
         _ => println!("Invalid choice"),
     }
 }
